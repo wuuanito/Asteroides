@@ -1,54 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:padding="30dp"
-        tools:context=".MainActivity" >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tituloAplicacion"
-            android:gravity="center"
-            android:textSize="25sp"
-            android:layout_marginBottom="20dp"/>
-
-        <Button
-            android:id="@+id/Button01"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Jugar" />
-        <Button
-            android:id="@+id/Button02"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:text="@string/Configurar"/>
-        <Button
-            android:id="@+id/Button03"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:text="@string/Acercade"/>
-        <Button
-            android:id="@+id/Button04"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:text="@string/Salir"/>
-    </LinearLayout>
-
+    android:gravity="center"
+    android:padding="30dp"
+    tools:context=".MainActivity" >
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/Button01"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/Jugar"/>
+    <Button
+        android:id="@+id/Button02"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/Configurar"/>
+    <Button
+        android:id="@+id/Button03"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/Acercade"/>
+    <Button
+        android:id="@+id/Button04"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/Salir"/>
+</LinearLayout>
