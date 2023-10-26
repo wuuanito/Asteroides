@@ -1,8 +1,8 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <string name="app_name">Asteroides</string>
     <string name="Jugar">Jugar</string>
     <string name="Configurar">Configurar</string>
-    <string name="Acercade">Acerca de </string>
+    <string name="Acercade">Acerca de</string>
     <string name="Salir">Salir</string>
-
 </resources>
