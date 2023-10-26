@@ -6,8 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -21,11 +19,12 @@
             android:gravity="center"
             android:textSize="25sp"
             android:layout_marginBottom="20dp"/>
+
         <Button
             android:id="@+id/Button01"
-            android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:text="@string/Arrancar"/>
+            android:layout_height="wrap_content"
+            android:text="Jugar" />
         <Button
             android:id="@+id/Button02"
             android:layout_height="wrap_content"
