@@ -13,13 +13,15 @@
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="273dp"
         android:gravity="center"
         android:text="@string/app_name"
         android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/Button01"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/Button01"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
 
     <Button
         android:id="@+id/Button01"
@@ -28,7 +30,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/Jugar"
+        app:layout_constraintBottom_toTopOf="@+id/Button02"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -37,7 +41,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/Configurar"
+        app:layout_constraintBottom_toTopOf="@+id/Button03"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Button01" />
 
@@ -47,7 +53,9 @@
         android:layout_height="wrap_content"
         android:onClick="lanzarAcercaDe"
         android:text="@string/Acercade"
+        app:layout_constraintBottom_toTopOf="@+id/Button04"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Button02" />
 
@@ -57,7 +65,9 @@
         android:layout_height="wrap_content"
         android:onClick="salir"
         android:text="@string/Salir"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Button03" />
 
