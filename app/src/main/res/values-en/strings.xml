@@ -5,4 +5,5 @@
     <string name="Configurar">Configure</string>
     <string name="Acercade">About</string>
     <string name="Salir">Exit</string>
+    <string name="textoacercade">This program has been developed as an example in the Android course to demonstrate how new activities can be launched from the main activity.</string>
 </resources>

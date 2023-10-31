@@ -11,4 +11,10 @@
     </style>
 
     <style name="Theme.Asteroides" parent="Base.Theme.Asteroides" />
+    <style name="botonPrincipal" parent="Widget.Material3.Button">
+
+        <item name="strokeColor">@color/accent</item>
+        <item name="strokeWidth">4dp</item>
+        <item name="textAllCaps">true</item>
+    </style>
 </resources>

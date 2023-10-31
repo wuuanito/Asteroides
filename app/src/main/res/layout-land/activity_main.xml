@@ -22,6 +22,7 @@
         android:stretchColumns="*">
         <TableRow>
             <Button android:id="@+id/button01"
+                style="@style/botonPrincipal"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:text="@string/Jugar"/>
