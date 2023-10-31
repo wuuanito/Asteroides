@@ -19,4 +19,8 @@ class MainActivity : AppCompatActivity() {
         val i = Intent(this, AcercaDeActivity::class.java)
         startActivity(i)
     }
+
+    fun salir(view: View?=null){
+        finish()
+    }
 }
