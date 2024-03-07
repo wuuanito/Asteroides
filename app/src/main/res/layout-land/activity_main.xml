@@ -45,12 +45,14 @@
                 style="@style/botonPrincipal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="lanzarJuego"
                 android:text="@string/Jugar" />
 
             <Button
                 android:id="@+id/button02"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="lanzarPreferencias"
                 android:text="@string/Configurar" />
         </TableRow>
 
@@ -60,6 +62,7 @@
                 android:id="@+id/button03"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="lanzarAcercaDe"
                 android:text="@string/Acercade" />
 
             <Button

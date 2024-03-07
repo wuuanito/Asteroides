@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingClass">
+    <SwitchPreference
+        android:key="activarMusica"
+        android:title="Activar musica"/>
+    <ListPreference
+        android:key="tipoGraficos"
+        android:title="Tipo de Graficos"
+        android:entries="@array/tipoGraficos"
+        android:entryValues="@array/tipoGraficosValores"
+        android:defaultValue="0"/>
+    <EditTextPreference
+        android:key="numeroFragmentos"
+        android:title="Numero de Fragmentos"
+        android:defaultValue="3"/>
+
+
+</androidx.preference.PreferenceScreen>
